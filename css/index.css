@@ -1,0 +1,40 @@
+.gradient-circle-purple {
+    background: rgb(104,80,106);
+background: radial-gradient(circle, rgba(104,80,106,1) 1%, rgba(100,76,106,1) 5%, rgba(83,59,107,1) 15%, rgba(33,26,70,1) 100%);
+}
+.gradient-circle-red{
+    background: rgb(145, 26, 26);
+        background: radial-gradient(circle, rgba(145, 26, 26, 0.7819502801120448) 15%, rgba(45, 26, 70, 1) 71%);
+}
+.gradient-circle-dark {
+    background: rgb(45, 26, 70);
+        background: radial-gradient(circle, rgba(45, 26, 70, 1) 42%, rgba(145, 26, 26, 0.87718837535014) 83%);
+}
+.example{
+    background: rgb(104,80,106);
+    size: 1cm;
+    color: white;
+}
+
+/*images */
+.navbar_logo{
+            width: 60px;
+                height: 60px;
+                max-width: 60px;
+                min-width: 30px;
+                object-fit: contain;
+}
+/*transitions */
+.card {
+    --transition-duration: 300ms;
+    transition: all var(--transition-duration) ease-in-out;
+    transform-origin: center;
+    /*background: linear-gradient(90deg, #3b82f6, #9333ea);*/
+}
+
+.card:hover {
+    transform: translateY(-8px) scale(1.05);
+    background: transparent;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    /*background: linear-gradient(45deg, #60a5fa, #a78bfa);*/
+}
