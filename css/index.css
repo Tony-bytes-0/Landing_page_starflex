@@ -1,40 +1,68 @@
 .gradient-circle-purple {
-    background: rgb(104,80,106);
-background: radial-gradient(circle, rgba(104,80,106,1) 1%, rgba(100,76,106,1) 5%, rgba(83,59,107,1) 15%, rgba(33,26,70,1) 100%);
+  background: rgb(104, 80, 106);
+  background: radial-gradient(
+    circle,
+    rgba(104, 80, 106, 1) 1%,
+    rgba(100, 76, 106, 1) 5%,
+    rgba(83, 59, 107, 1) 15%,
+    rgba(33, 26, 70, 1) 100%
+  );
 }
-.gradient-circle-red{
-    background: rgb(145, 26, 26);
-        background: radial-gradient(circle, rgba(145, 26, 26, 0.7819502801120448) 15%, rgba(45, 26, 70, 1) 71%);
+.gradient-circle-startflex {
+background: rgb(77,11,46);
+background: radial-gradient(circle, rgb(187, 44, 80) 9%, rgba(16, 27, 35) 100%);
+}
+/* Color red              = const Color(0xFFb8002e); rgba(184, 0, 46) 9%,
+Color green            = const Color(0xff53b800);
+Color blueDark         = const Color(0xFF101b23); rgba(16, 27, 35) 100%
+*/
+
+.gradient-circle-red {
+  background: rgb(145, 26, 26);
+  background: radial-gradient(
+    circle,
+    rgba(145, 26, 26, 0.7819502801120448) 15%,
+    rgba(45, 26, 70, 1) 71%
+  );
 }
 .gradient-circle-dark {
-    background: rgb(45, 26, 70);
-        background: radial-gradient(circle, rgba(45, 26, 70, 1) 42%, rgba(145, 26, 26, 0.87718837535014) 83%);
+  background: rgb(45, 26, 70);
+  background: radial-gradient(
+    circle,
+    rgba(45, 26, 70, 1) 42%,
+    rgba(145, 26, 26, 0.87718837535014) 83%
+  );
 }
-.example{
-    background: rgb(104,80,106);
-    size: 1cm;
-    color: white;
+.example {
+  background: rgb(104, 80, 106);
+  size: 1cm;
+  color: white;
 }
 
 /*images */
-.navbar_logo{
-            width: 60px;
-                height: 60px;
-                max-width: 60px;
-                min-width: 30px;
-                object-fit: contain;
+.navbar_logo {
+  width: 60px;
+  height: 60px;
+  max-width: 60px;
+  min-width: 30px;
+  object-fit: contain;
+}
+.cover_image {
+  height: 1024px;
+  max-height: max-content;
+  background-image: url("../assets/images/vista-amanecer-manana-montanas_38649-229.avif");
 }
 /*transitions */
 .card {
-    --transition-duration: 300ms;
-    transition: all var(--transition-duration) ease-in-out;
-    transform-origin: center;
-    /*background: linear-gradient(90deg, #3b82f6, #9333ea);*/
+  --transition-duration: 300ms;
+  transition: all var(--transition-duration) ease-in-out;
+  transform-origin: center;
+  /*background: linear-gradient(90deg, #3b82f6, #9333ea);*/
 }
 
 .card:hover {
-    transform: translateY(-8px) scale(1.05);
-    background: transparent;
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
-    /*background: linear-gradient(45deg, #60a5fa, #a78bfa);*/
+  transform: translateY(-8px) scale(1.05);
+  background: transparent;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  /*background: linear-gradient(45deg, #60a5fa, #a78bfa);*/
 }
