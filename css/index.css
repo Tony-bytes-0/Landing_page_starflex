@@ -52,6 +52,10 @@ Color blueDark         = const Color(0xFF101b23); rgba(16, 27, 35) 100%
   max-height: max-content;
   background-image: url("../assets/images/vista-amanecer-manana-montanas_38649-229.avif");
 }
+.small_icon{
+    width: 50px;
+    max-width: max-content;
+}
 /*transitions */
 .card {
   --transition-duration: 300ms;
@@ -64,5 +68,9 @@ Color blueDark         = const Color(0xFF101b23); rgba(16, 27, 35) 100%
   transform: translateY(-8px) scale(1.05);
   background: transparent;
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+              background-image: linear-gradient(
+                rgba(255, 255, 255, 0.2),
+                rgba(255, 255, 255, 0.2)
+            );
   /*background: linear-gradient(45deg, #60a5fa, #a78bfa);*/
 }
