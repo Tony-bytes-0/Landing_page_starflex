@@ -52,6 +52,12 @@ Color blueDark         = const Color(0xFF101b23); rgba(16, 27, 35) 100%
   max-height: max-content;
   background-image: url("../assets/images/vista-amanecer-manana-montanas_38649-229.avif");
 }
+.logo_cover_img{
+      background-position: center center ;
+      background-repeat: no-repeat;
+  background-image: url("../assets/images/logo/logo.png");
+  background-size: contain;
+}
 .small_icon{
     width: 50px;
     max-width: max-content;
