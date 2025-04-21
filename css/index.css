@@ -66,6 +66,11 @@ Color blueDark         = const Color(0xFF101b23); rgba(16, 27, 35) 100%
       width: 30px;
     max-width: max-content;
 }
+.phone_screenshoot_image {
+  width: 300px;
+  border-radius: 33px ;
+  
+}
 /*transitions */
 .card {
   --transition-duration: 300ms;
